@@ -98,6 +98,8 @@ You will now test the permissions of each user to confirm that the correct polic
 
 <img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
+[<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-security.png">](https://www.credly.com/badges/6ea09b08-c1f7-4035-ae3b-bf921004d224/public_url) 
+
 ### **Question 1**  
 Which is AWS's responsibility under the AWS shared responsibility model?  
 - [ ] Granting access to customer data  
