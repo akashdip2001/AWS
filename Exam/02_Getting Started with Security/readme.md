@@ -93,3 +93,129 @@ You will now test the permissions of each user to confirm that the correct polic
 3. Confirm that the lab is terminated.
 
 ---
+
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+
+### **Question 1**  
+Which is AWS's responsibility under the AWS shared responsibility model?  
+- [ ] Granting access to customer data  
+- [ ] Configuring for public or private access for VPCs  
+- [ ] Security group configurations  
+- [x] Maintaining physical hardware  
+
+**Explanation:**  
+AWS is responsible for maintaining the physical hardware and infrastructure that underpins the cloud services. Customers handle configurations and data management.
+
+---
+
+### **Question 2**  
+Which is a best practice in IAM concerning the root user?  
+- [ ] Do not enable MFA for the root user.  
+- [ ] Share the root user account login credentials with at least one other administrator.  
+- [ ] Use the root user for daily administration tasks.  
+- [x] Do not use root account credentials for day-to-day interactions with AWS.  
+
+**Explanation:**  
+The root user is powerful and should only be used for critical account-wide tasks. For daily tasks, create individual IAM users with the necessary permissions.
+
+---
+
+### **Question 3**  
+An IAM policy that allows access to an Amazon S3 bucket is attached to an IAM user. The Amazon S3 bucket has a bucket policy that denies the IAM user access to the bucket.  
+Which statement is true about the conflicting IAM and resource policies?  
+- [ ] A resource policy always overrides an IAM policy. The IAM user cannot access the bucket.  
+- [ ] A policy with an allow statement overrides an allow statement. The IAM user can access the bucket.  
+- [x] A policy with a deny statement overrides an allow statement. The IAM user cannot access the bucket.  
+- [ ] An IAM policy always overrides a resource policy. The IAM user can access the bucket.  
+
+**Explanation:**  
+In AWS, **deny** statements always take precedence over allow statements. Even if an IAM policy allows access, a deny in the resource policy will block access.
+
+---
+
+### **Question 4**  
+Which service would you use to authenticate and authorize users on your web application?  
+- [ ] Amazon KMS  
+- [x] Amazon Cognito  
+- [ ] Amazon Secrets Manager  
+- [ ] IAM  
+
+**Explanation:**  
+Amazon Cognito provides authentication, authorization, and user management for your web and mobile apps. You can use it to allow users to sign in and control their access to resources.
+
+---
+
+### **Question 5**  
+Which section on the IAM policy statement determines whether the user's access is being allowed or denied?  
+- [ ] Statement  
+- [ ] Action  
+- [x] Effect  
+- [ ] Resource  
+
+**Explanation:**  
+The **Effect** field in a policy explicitly states whether the policy allows or denies the specified action. Example: `"Effect": "Allow"`.
+
+---
+
+### **Question 6**  
+Which two services are designed specifically for data protection? (Choose TWO)  
+- [ ] GuardDuty  
+- [ ] Amazon Inspector  
+- [ ] Amazon Cognito  
+- [x] Secrets Manager  
+- [x] AWS KMS  
+
+**Explanation:**  
+AWS KMS (Key Management Service) manages encryption keys, and Secrets Manager stores sensitive information like passwords securely.
+
+---
+
+### **Question 7**  
+Which statement is true in regards to what is required for a user to assume a role?  
+- [ ] All IAM users can assume roles in an AWS account, unless a deny policy specifies that they cannot.  
+- [x] The user needs to be defined as the principal that you trust to assume the role in the trust policy.  
+- [ ] The user needs to be defined as the principal that you trust to assume the role in the user's IAM policy.  
+- [ ] All IAM users can assume roles in an AWS account.  
+
+**Explanation:**  
+A trust policy on the role specifies who (which principal) can assume it. This is a critical component of cross-account access.
+
+---
+
+### **Question 8**  
+You want an added layer of security to authenticate a user when the user logs in. What should you do?  
+- [ ] Place the IAM user in a specific IAM group  
+- [x] Enable multi-factor authentication (MFA) on the IAM user's account  
+- [ ] Delete the IAM user's access keys  
+- [ ] Use Amazon Inspector  
+
+**Explanation:**  
+Enabling **MFA** provides an additional layer of security by requiring a one-time password (OTP) or similar token for login.
+
+---
+
+### **Question 9**  
+Which service helps protect your application on AWS from DDoS attacks?  
+- [x] Shield  
+- [ ] GuardDuty  
+- [ ] Secrets Manager  
+- [ ] Amazon Inspector  
+
+**Explanation:**  
+AWS Shield offers managed protection against distributed denial-of-service (DDoS) attacks, ensuring availability of your applications.
+
+---
+
+### **Question 10**  
+What can you do in IAM to help you evaluate whether the principle of least privilege is being enforced? (Choose TWO)  
+- [x] Use the IAM credential report to perform audits.  
+- [x] Use the IAM Access Analyzer to help fine-grain the IAM users' permissions.  
+- [ ] Provide the IAM user with a limited set of permissions and increase as needed.  
+- [ ] Provide the IAM user with a broad set of permissions and scale back as needed.  
+- [ ] Create a single IAM user and provide the login credentials to users with the same job functions.  
+
+**Explanation:**  
+The **IAM credential report** provides details on users and their access patterns. **IAM Access Analyzer** helps identify overly permissive policies and refine them.
+
+---
+
