@@ -1,7 +1,11 @@
-![Screenshot (530)](https://github.com/user-attachments/assets/7dcc9916-2ee5-4216-a2dc-209cf84fb49b)
-![Screenshot (531)](https://github.com/user-attachments/assets/641fc748-27c1-448a-84b6-8e6a6f94d8e9)
-
 [<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-security.png">](https://www.credly.com/badges/6ea09b08-c1f7-4035-ae3b-bf921004d224/public_url) 
+
+<img width="500" src="https://github.com/user-attachments/assets/7dcc9916-2ee5-4216-a2dc-209cf84fb49b">
+
+</br>
+</br>
+
+![Screenshot (531)](https://github.com/user-attachments/assets/641fc748-27c1-448a-84b6-8e6a6f94d8e9)
 
 ---
 
@@ -71,6 +75,9 @@
           <summary><b><img src="https://github.com/akashdip2001/git-github/raw/main/source/img_logo.png" width="20"/> img guide.</b></summary>
         
         ![Screenshot (542)](https://github.com/user-attachments/assets/0065e173-8f6f-461a-b485-a2dc45130b92)
+        ![Screenshot_13-12-2024_22826_us-east-1 console aws amazon com](https://github.com/user-attachments/assets/f0269184-659e-49d3-872b-28f5a0e613d1)
+
+        ## No Need to change anything , just see the envirorment.
       </details> 
 
 ---
