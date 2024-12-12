@@ -212,11 +212,15 @@ What can you do in IAM to help you evaluate whether the principle of least privi
 - [x] Use the IAM Access Analyzer to help fine-grain the IAM users' permissions.  
 - [x] Provide the IAM user with a limited set of permissions and increase as needed.  
 - [ ] Provide the IAM user with a broad set of permissions and scale back as needed.  
-- [ ] Create a single IAM user and provide the login credentials to users with the same job functions.  
+- [ ] Create a single IAM user and provide the login credentials to users with the same job functions.
+ 
+</br>
 
 **Explanation:**  
 
 AWS emphasizes **least privilege** as a best practice to secure cloud environments. Let’s break down why **"Use the IAM Access Analyzer"** and **"Provide the IAM user with a limited set of permissions and increase as needed"** are the correct answers.
+
+</br>
 
 ### ✈️ **Correct Answer 1: Use the IAM Access Analyzer to help fine-grain the IAM users' permissions**
 
@@ -230,6 +234,8 @@ The IAM Access Analyzer evaluates permissions policies to help identify resource
 4. Modify the identified policies to restrict access based on the findings.
 
 This tool directly supports the principle of least privilege by making it easier to identify and mitigate unnecessary access.
+
+</br>
 
 ### ✈️ **Correct Answer 2: Provide the IAM user with a limited set of permissions and increase as needed**
 **Explanation:**
@@ -256,6 +262,8 @@ Instead of granting broad permissions and later scaling them back (which can lea
    - As the user's needs grow, append additional actions or resources to the policy.
 
 This ensures the user has only the permissions necessary for their role at any given time.
+
+</br>
 
 ### ✈️ Why Not Start with Broad Permissions?
 Granting broad permissions and scaling back later risks creating security gaps. It may allow the user to perform actions unintentionally during the interim period before restrictions are applied.
