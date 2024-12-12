@@ -208,14 +208,60 @@ AWS Shield offers managed protection against distributed denial-of-service (DDoS
 
 ### **Question 10**  
 What can you do in IAM to help you evaluate whether the principle of least privilege is being enforced? (Choose TWO)  
-- [x] Use the IAM credential report to perform audits.  
+- [ ] Use the IAM credential report to perform audits.  
 - [x] Use the IAM Access Analyzer to help fine-grain the IAM users' permissions.  
-- [ ] Provide the IAM user with a limited set of permissions and increase as needed.  
+- [x] Provide the IAM user with a limited set of permissions and increase as needed.  
 - [ ] Provide the IAM user with a broad set of permissions and scale back as needed.  
 - [ ] Create a single IAM user and provide the login credentials to users with the same job functions.  
 
 **Explanation:**  
-The **IAM credential report** provides details on users and their access patterns. **IAM Access Analyzer** helps identify overly permissive policies and refine them.
 
----
+AWS emphasizes **least privilege** as a best practice to secure cloud environments. Let’s break down why **"Use the IAM Access Analyzer"** and **"Provide the IAM user with a limited set of permissions and increase as needed"** are the correct answers.
+
+### ✈️ **Correct Answer 1: Use the IAM Access Analyzer to help fine-grain the IAM users' permissions**
+
+**Explanation:**
+The IAM Access Analyzer evaluates permissions policies to help identify resources that are shared with external entities or may have excessive permissions. It provides insights that help refine policies to ensure only necessary permissions are granted.
+
+**Example and Process:**
+1. Navigate to the IAM Management Console.
+2. Open **Access Analyzer** under the IAM section.
+3. Review the findings, which highlight policies that are overly permissive or expose resources unnecessarily.
+4. Modify the identified policies to restrict access based on the findings.
+
+This tool directly supports the principle of least privilege by making it easier to identify and mitigate unnecessary access.
+
+### ✈️ **Correct Answer 2: Provide the IAM user with a limited set of permissions and increase as needed**
+**Explanation:**
+Instead of granting broad permissions and later scaling them back (which can lead to potential misuse or security risks), it's safer to start with minimal permissions and add more as required.
+
+**Example and Process:**
+1. **Step 1: Create a policy with minimal permissions.**
+   - For example, if the user only needs access to an S3 bucket for read-only purposes, create a policy like:
+     ```json
+     {
+       "Version": "2012-10-17",
+       "Statement": [
+         {
+           "Effect": "Allow",
+           "Action": "s3:GetObject",
+           "Resource": "arn:aws:s3:::example-bucket/*"
+         }
+       ]
+     }
+     ```
+2. **Step 2: Monitor activity.**
+   - Use CloudTrail logs to assess which actions the user attempts that might be blocked by the limited policy.
+3. **Step 3: Incrementally add permissions.**
+   - As the user's needs grow, append additional actions or resources to the policy.
+
+This ensures the user has only the permissions necessary for their role at any given time.
+
+### ✈️ Why Not Start with Broad Permissions?
+Granting broad permissions and scaling back later risks creating security gaps. It may allow the user to perform actions unintentionally during the interim period before restrictions are applied.
+
+By starting small and using tools like **IAM Access Analyzer**, you maintain a secure and controlled environment, gradually refining permissions as actual needs are identified.
+
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+
 
