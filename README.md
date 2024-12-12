@@ -1,4 +1,4 @@
-# AWS
+![Pattern_Social_16x9](https://github.com/user-attachments/assets/74dc65b6-5208-47aa-a502-524a9d123e9f)
 
 <div style='display:flex; align-items:center; gap: 30px;' align='center'>
 <a href="https://www.credly.com/go/6C69ZOKh"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-foundations.png" width="150px" height="150px" /></a>
