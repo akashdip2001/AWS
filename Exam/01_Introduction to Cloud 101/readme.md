@@ -1,4 +1,4 @@
-[<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-introduction-to-cloud-101.png">](https://www.credly.com/go/6C69ZOKh) 
+[<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-introduction-to-cloud-101.png">](https://www.credly.com/badges/998c7f5e-7081-4cd7-b8ee-153ece4d89f0) 
 
 Foundational AWS concepts covered in "Introduction to Cloud 101."
 
