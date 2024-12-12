@@ -1,6 +1,8 @@
 ![Screenshot (530)](https://github.com/user-attachments/assets/7dcc9916-2ee5-4216-a2dc-209cf84fb49b)
 ![Screenshot (531)](https://github.com/user-attachments/assets/641fc748-27c1-448a-84b6-8e6a6f94d8e9)
 
+[<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-security.png">](https://www.credly.com/badges/6ea09b08-c1f7-4035-ae3b-bf921004d224/public_url) 
+
 ---
 
 ### **Task 1: Explore the Users and Groups**
