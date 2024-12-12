@@ -1,3 +1,5 @@
+[<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-introduction-to-cloud-101.png">](https://www.credly.com/go/6C69ZOKh) 
+
 Foundational AWS concepts covered in "Introduction to Cloud 101."
 
 1. **What is cloud computing?**  
