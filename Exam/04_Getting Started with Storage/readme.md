@@ -4,8 +4,8 @@
 
 It would be helpful for your learning if you have a basic understanding of cloud computing concepts and the AWS Management Console. AWS Educate supports this background with courses, which include the following:
 
-1. **AWS Educate Introduction to the AWS Management Console**
-2. **AWS Educate Introduction to Cloud 101**
+1. [**AWS Educate Introduction to the AWS Management Console**](../03_Introduction%20to%20the%20AWS%20Management%20Console/readme.md)
+2. [**AWS Educate Introduction to Cloud 101**](../01_Introduction%20to%20Cloud%20101/readme.md)
 
 ---
 
