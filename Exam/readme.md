@@ -8,6 +8,9 @@ Though you can take any of the courses at any time, it is suggested that you tak
 6. Getting Started with Security
 7. Getting Started with Serverless
 
+</br>
+</br>
+</br>
 
 <div style='display:flex; align-items:center; gap: 30px;' align='center'>
 <a href="https://www.credly.com/go/6C69ZOKh"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-foundations.png" width="150px" height="150px" /></a>
