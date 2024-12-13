@@ -202,8 +202,8 @@ This makes the bucket publicly readable. For stricter security, modify the polic
 
 ---
 
-| 📽️📺 [Complete Video](https://youtu.be/xVc-wB_sz1E) |
-| --- |
+| 📽️📺 [Complete Video](https://youtu.be/xVc-wB_sz1E) | 🧪🧫 [Lab Video](https://youtu.be/VAJ3xnhS75g) ✅ |
+| --- | --- |
 
 ---
 
