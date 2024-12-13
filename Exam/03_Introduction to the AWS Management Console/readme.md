@@ -21,7 +21,7 @@
      
 🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
 </div>
-</div>details>
+</details>
 
 | [Video](https://youtu.be/fo0NBT6k2aM) |
 | --- |
