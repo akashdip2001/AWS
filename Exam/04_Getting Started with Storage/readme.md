@@ -209,6 +209,8 @@ This makes the bucket publicly readable. For stricter security, modify the polic
 
 <img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
+![Screenshot (575)](https://github.com/user-attachments/assets/0f036ccc-2c32-4236-a60b-9f242775fab3)
+
 # Getting Started with Storage – Final Assessment
 
 ---
