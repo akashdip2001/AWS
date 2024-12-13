@@ -207,3 +207,211 @@ This makes the bucket publicly readable. For stricter security, modify the polic
 
 ---
 
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+
+# Getting Started with Storage – Final Assessment
+
+---
+
+### **Question 1**  
+**What is the definition of object-based storage?**  
+- **Options**:  
+  - Object storage is a method of storing data based on a hierarchical structure of directories and subdirectories.  
+  - Object storage is a method of storing files in individual blocks located on a hard drive.  
+  - **Object storage is a method of storing files based on attributes and metadata.** (✔ Correct)  
+  - Object storage is a method of storing files based on folders and subfolders.  
+
+- **Explanation**: Object storage stores data as objects containing the data itself, metadata, and a unique identifier, making it scalable and accessible for unstructured data like images or videos. It doesn’t rely on hierarchy like traditional file systems.  
+
+- **Code Example**: Storing data in Amazon S3:  
+  ```python
+  import boto3
+
+  s3 = boto3.client('s3')
+  s3.upload_file('localfile.txt', 'bucket-name', 'object-key')
+  ```
+
+---
+
+### **Question 2**  
+**Which storage class is for raw storage of data in fixed-sized chunks, each with a unique identifier?**  
+- **Options**:  
+  - Object  
+  - **Block** (✔ Correct)  
+  - Gateway  
+  - File  
+
+- **Explanation**: Block storage divides files into fixed-sized blocks with unique IDs, enabling low-latency performance for use cases like databases and applications that require fast access. AWS provides **Amazon EBS** for block storage.  
+
+- **Code Example**: Attaching an EBS volume to an EC2 instance:  
+  ```bash
+  aws ec2 attach-volume --volume-id vol-12345 --instance-id i-12345 --device /dev/sdh
+  ```
+
+---
+
+### **Question 3**  
+**Which option is a typical use case for Amazon S3?**  
+- **Options**:  
+  - Block storage for an Amazon EC2 instance  
+  - File storage for multiple Amazon EC2 instances  
+  - **Object storage for media hosting** (✔ Correct)  
+  - Object storage for a boot drive  
+
+- **Explanation**: Amazon S3 is optimized for object storage, making it ideal for storing and hosting media files like images, videos, and backups. It provides high scalability and durability.  
+
+- **Code Example**: Hosting a static website using S3:  
+  ```bash
+  aws s3 website s3://bucket-name --index-document index.html
+  ```
+
+---
+
+### **Question 4**  
+**Which Amazon S3 storage tier is best for rarely accessed data like patient records stored for 7 years?**  
+- **Options**:  
+  - Amazon S3 Standard  
+  - Amazon S3 Standard-Infrequent Access  
+  - **Amazon S3 Glacier Deep Archive** (✔ Correct)  
+  - Amazon S3 Intelligent-Tiering  
+
+- **Explanation**: Amazon S3 Glacier Deep Archive is designed for long-term archival storage with the lowest cost, making it ideal for data that is rarely accessed and requires extended retention periods.  
+
+---
+
+### **Question 5**  
+**Which of the following are types of cloud storage in AWS? (Select THREE)**  
+- **Options**:  
+  - **Object** (✔ Correct)  
+  - **File** (✔ Correct)  
+  - Referential  
+  - Distributed  
+  - **Block** (✔ Correct)  
+  - Endpoint  
+
+- **Explanation**: AWS provides object storage (Amazon S3), file storage (Amazon EFS), and block storage (Amazon EBS) to cater to different use cases like backups, shared file systems, and low-latency applications.  
+
+---
+
+### **Question 6**  
+**Which types of data does Amazon S3 offer encryption for? (Select TWO)**  
+- **Options**:  
+  - Data at the edge  
+  - Data in archive  
+  - **Data at rest** (✔ Correct)  
+  - Data from endpoints  
+  - **Data in transit** (✔ Correct)  
+
+- **Explanation**: Amazon S3 provides encryption for data at rest (using server-side encryption with AES-256 or KMS) and data in transit (using HTTPS).  
+
+- **Code Example**: Enabling encryption in S3:  
+  ```bash
+  aws s3api put-bucket-encryption --bucket my-bucket --server-side-encryption-configuration \
+  '{"Rules":[{"ApplyServerSideEncryptionByDefault":{"SSEAlgorithm":"AES256"}}]}'
+  ```
+
+---
+
+### **Question 7**  
+**For which portions of AWS must an S3 bucket name be unique?**  
+- **Options**:  
+  - **Globally across all AWS accounts** (✔ Correct)  
+  - Across all of the developer's AWS accounts  
+  - Within the developer's AWS account  
+  - Within a Region  
+
+- **Explanation**: Bucket names must be globally unique because S3 uses DNS naming for bucket access. This ensures no conflicts when addressing buckets.  
+
+---
+
+### **Question 8**  
+**Who can view objects in an Amazon S3 bucket if default access permissions are left unchanged?**  
+- **Options**:  
+  - Anyone in the developer's organization  
+  - Subscribers to the developer's application  
+  - The public  
+  - **Only the developer** (✔ Correct)  
+
+- **Explanation**: By default, S3 buckets are private, and only the bucket owner (developer) has access unless permissions are explicitly changed.  
+
+---
+
+### **Question 9**  
+**Which storage service is recommended as a storage layer for a database attached to an EC2 instance?**  
+- **Options**:  
+  - Amazon Elastic File System (Amazon EFS)  
+  - **Amazon Elastic Block Store (Amazon EBS)** (✔ Correct)  
+  - Amazon S3  
+  - Amazon S3 Glacier Flexible Retrieval  
+
+- **Explanation**: Amazon EBS provides block storage optimized for low-latency and high IOPS, making it suitable for database storage.  
+
+- **Code Example**: Creating an EBS volume:  
+  ```bash
+  aws ec2 create-volume --size 10 --availability-zone us-east-1a --volume-type gp2
+  ```
+
+---
+
+### **Question 10**  
+**What items are users charged for in Amazon S3? (Select THREE)**  
+- **Options**:  
+  - DELETE and CANCEL requests  
+  - **Transfers OUT to other Regions or the internet** (✔ Correct)  
+  - **PUT, COPY, POST, LIST, and GET requests** (✔ Correct)  
+  - **GB storage per month** (✔ Correct)  
+  - Transfers between S3 buckets in the same Region  
+  - Transfers IN to Amazon S3  
+  - Transfers OUT to Amazon EC2 in the same Region  
+
+- **Explanation**: S3 charges based on storage usage, data transfer to the internet/other Regions, and request types (PUT, GET, etc.).  
+
+---
+
+### **Question 11**  
+**What is one benefit of enabling Cross-Region Replication in S3?**  
+- **Options**:  
+  - Minimize administrative time by giving multiple administrators object access  
+  - Minimize the number of EC2 instances needed to access objects  
+  - Minimize tracking requirements by having multiple copies of each object  
+  - **Minimize latency by maintaining object copies in AWS Regions geographically closer to users** (✔ Correct)  
+
+- **Explanation**: Cross-Region Replication ensures that objects are replicated across different Regions, reducing latency for end users near those Regions.  
+
+---
+
+### **Question 12**  
+**Which storage class is suitable for unpredictable data access patterns?**  
+- **Options**:  
+  - Amazon S3 Standard  
+  - **Amazon S3 Intelligent-Tiering** (✔ Correct)  
+  - Amazon S3 Glacier Flexible Retrieval  
+  - Amazon S3 One Zone-Infrequent Access  
+
+- **Explanation**: Amazon S3 Intelligent-Tiering automatically moves data to the most cost-effective access tier based on usage patterns, making it ideal for unpredictable workloads.  
+
+---
+
+### **Question 13**  
+**What actions can Amazon S3 lifecycle rules apply to objects? (Select TWO)**  
+- **Options**:  
+  - Archive actions  
+  - **Transition actions** (✔ Correct)  
+  - **Expiration actions** (✔ Correct)  
+  - Alert actions  
+  - Duplication actions  
+
+- **Explanation**: Lifecycle rules can move objects between storage classes (transition) or delete them after a specified time (expiration), helping optimize storage costs.  
+
+- **Code Example**: Adding a lifecycle rule:  
+  ```bash
+  aws s3api put-bucket-lifecycle-configuration --bucket my-bucket \
+  --lifecycle-configuration file://lifecycle.json
+  ```
+
+---
+
+![Screenshot (577)](https://github.com/user-attachments/assets/246984a4-7a35-49e5-84df-5783766c9ee3)
+
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+
