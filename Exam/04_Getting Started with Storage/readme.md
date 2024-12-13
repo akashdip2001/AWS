@@ -1,3 +1,5 @@
+[<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-storage.png">](https://www.credly.com/badges/02600532-734a-44c4-954a-bc03105fa653/public_url) 
+
 # Getting Started with Storage
 
 ## ✈️ Requirements
