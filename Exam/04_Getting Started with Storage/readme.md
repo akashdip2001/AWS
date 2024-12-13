@@ -1,7 +1,16 @@
 # Getting Started with Storage
 
+## ✈️ Requirements
+
+It would be helpful for your learning if you have a basic understanding of cloud computing concepts and the AWS Management Console. AWS Educate supports this background with courses, which include the following:
+
+1. **AWS Educate Introduction to the AWS Management Console**
+2. **AWS Educate Introduction to Cloud 101**
+
+---
+
 <details>	
-          <summary><b>about the cource</b></summary>
+          <summary><b>about the cource & Requirements</b></summary>
 <div>
 🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
   
@@ -190,3 +199,6 @@ This makes the bucket publicly readable. For stricter security, modify the polic
 🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
 </div>
 </details>
+
+---
+
