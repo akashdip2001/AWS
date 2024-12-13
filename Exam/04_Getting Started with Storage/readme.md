@@ -202,7 +202,10 @@ This makes the bucket publicly readable. For stricter security, modify the polic
 
 ---
 
-| 📽️📺 [Complete Video](https://youtu.be/xVc-wB_sz1E) | 🧪🧫 [Lab Video](https://youtu.be/VAJ3xnhS75g) ✅ |
+| 📺 [Video - Explain All type of Storage](https://youtu.be/xVc-wB_sz1E) |
+| --- |
+
+| 🧪 [Lab Video](https://youtu.be/VAJ3xnhS75g) | ✅ [Lab link](https://awseducate.instructure.com/courses/908/modules) |
 | --- | --- |
 
 ---
