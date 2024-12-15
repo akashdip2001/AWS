@@ -8,7 +8,12 @@
 <a href="https://www.credly.com/badges/6ea09b08-c1f7-4035-ae3b-bf921004d224/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-security.png" width="150px" height="150px" /></a>
 </div>
 
+</br>
+</br>
 
+ <details>	
+          <summary><b>Linux with AWS Cloud Bootcamp</b></summary>
+	 
 ==============================
 Linux with AWS Cloud Bootcamp
 ==============================
@@ -560,3 +565,6 @@ whereis java
 sudo yum install maven -y
 maven -version
 whereis maven
+
+🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+</details>
