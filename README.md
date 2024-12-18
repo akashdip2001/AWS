@@ -568,3 +568,236 @@ whereis maven
 
 🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
 </details>
+
+
+====================
+AWS Cloud Bootcamp
+====================
+
+Pre-Requisites : Linux Basics
+
+=========
+Syllabus
+=========
+
+1) What is infrastructure ?
+
+2) On-Prem Infrastructure Challenges
+
+3) Cloud Computing
+
+4) Advantages with Cloud Computing
+
+5) AWS Introduction
+
+6) AWS Services Tour
+
+7) Regions & AZs
+
+8) EC2 + Load Balancer
+
+9) S3
+
+10) RDS
+
+11) IAM
+
+12) Beanstack
+
+13) Lambdas
+
+14) Route 53 (DNS)
+
+
+========================
+What is Infrastructure?
+========================
+
+=> Resources required to run our business.
+
+IT Infrastructure : 
+
+1) Machines
+2) Servers
+3) Databases
+4) Storage
+5) Network
+6) Power
+7) Security
+8) Backup
+9) Monitoring
+
+=> We can deal with IT infrastructure in 2 ways 
+
+	1) On-Prem infrastructure
+
+	2) Cloud Infrastructure
+
+=> On-Prem infrastructure means we need to purchase everything and manage everything on our own.
+
+=> We have to deal with below challenges when we go for on-prem infrastructure
+
+1) Lot of investment
+2) Scalability 
+3) Availability
+4) Security
+5) Storage
+6) Monitoring
+
+=> To overcome the challenges with On-Prem infrastructure, companies are moving to cloud computing.
+
+==========================
+What is Cloud Computing ?
+==========================
+
+=> The process of delivering IT resources over the internet on demand basis is called as Cloud Computing.
+
+=> Cloud Computing works based on pay as you go model.
+
+=> We have below advantages with cloud computing
+
+1) Pay as you go 
+
+2) Scalability
+
+3) Availability (24/7)
+
+4) Unlimited Storage 
+
+5) Security
+
+6) Backup & Restore
+
+7) Monitoring
+
+===============
+Cloud Provider
+===============
+
+=> The company which is providing IT infrastructure based on 
+"pay as you go" model.
+
+1) Amazon => AWS 
+
+2) Microsoft => AZURE
+
+3) Google => GCP 
+
+4) Salesforce
+
+=====================
+Cloud Service Models
+=====================
+
+1) IAAS : Infrastructure as a service
+
+2) PAAS : Platform as a service 
+
+3) SAAS : Software as a service
+
+
+==========
+AWS Cloud
+==========
+
+=> AWS stands for Amazon Webservices.
+
+=> Amazon company started AWS cloud in 2006.
+
+=> Today 190+ countries using AWS cloud services
+
+=> Instead of we are puchasing, managing and maintaining infrastructure simply we can use AWS cloud infrastructure.
+
+=> AWS providing services based on pay as you go model.
+
+=> AWS having global infrastructure using Regions & Availability Zones.
+
+=> We can create free tier account (1 year validity)
+
+=> In AWS cloud we have 200+ services (some are free and some are paid)
+
+=> If we use paid service in AWS, bill be generated.
+
+Note: in AWS, bill amount auto-deduction will not happen. If we don't pay bill amount aws will suspend our account.
+
+Note: As a beginner we can request AWS support team to get free credits.
+
+
+=============
+AWS Services
+=============
+
+EC2 : Elastic Compute Cloud => Virtual Servers
+
+S3 : Simple Storage Service => Unlimited Storage
+
+RDS : Relational Database Service => RDBMS
+
+IAM : Identity and Access Management => Users, Groups & Roles
+
+VPC : Virtual Private Cloud => Network
+
+Route 53 : DNS => Domain Mapping
+
+EKS : Elastic Kubernetes Service => K8s Cluster
+
+Beanstack : Platform as a service
+
+Lambdas : Serverless computing => Run application without thinking abt server
+
+===========
+Assignment
+===========
+
+@@ Reference video : https://youtu.be/GSu1g9jvFhY?si=7VVcaxkZZw_WKWsC
+
+Step-1 : Create Mysql DB using AWS RDS 
+
+Step-2 : Check DB connection with workbench
+
+Step-3 : Develop application to connect with RDS DB.
+
+Step-4 : Delete RDS database instance.
+
+
+=====
+EC2
+=====
+
+=> EC2 means elastic compute cloud 
+
+=> It is used to create virtual machines in aws cloud
+
+    EC2 instance = server/machine/vm/instance 
+
+=> EC2 is a paid service 
+
+=> Minimum billing period for EC2 instance is 1 hour.
+
+	9:15 AM - 9:30 AM ===> 1 hour
+	
+	9:45 AM - 10:00 AM ===> 1 hour
+
+=> To create EC2 instance we will use below resources 
+
+	1) AMI (OS)
+	2) Instance Type (configuration)
+	3) Key Pair (.pem)
+	4) VPC (networking)
+	5) Security Group (firewall rules)
+	6) EBS (storage)
+	
+
+=> Windows Machines will run on RDP protocol and Linux machines will run on SSH protocol.
+
+		RDP => 3389
+		
+		SSH => 22
+		
+============
+Assignment	
+============
+
+=> Deploy SpringBoot application in EC2 Linux VM and access that using browser in windows machine.
+
+@@ Reference video : https://www.youtube.com/watch?v=cRQPgbwOWq0
