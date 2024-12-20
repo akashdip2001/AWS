@@ -152,16 +152,6 @@ sudo systemctl status jenkins
     ![Screenshot (750)](https://github.com/user-attachments/assets/507f4d3b-1599-458d-8901-9aa11d92c7d5)
 
     </details>
-    
-  ![Screenshot (751)](https://github.com/user-attachments/assets/ea1fda05-19f9-4295-8784-e021aca0a714)
-
-  ##### 🔑 passward: in this file
-  ```
-  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-  ```
-  install suggested Plugins
-  ![Screenshot (752)](https://github.com/user-attachments/assets/340af1d4-ed0a-4a9e-99e4-6dd63ace2ba2)
-  ![Screenshot (753)](https://github.com/user-attachments/assets/de02a60e-4a9f-4e59-83cb-287372a73e85)
 
 #### Update Firewall (if needed):
 - On the instance, use:
@@ -188,6 +178,18 @@ sudo systemctl status jenkins
 3. Install Recommended Plugins:
    - Follow the on-screen instructions to install plugins and create an admin user.
 
+</br>
+
+![Screenshot (751)](https://github.com/user-attachments/assets/ea1fda05-19f9-4295-8784-e021aca0a714)
+
+  ##### 🔑 passward: in this file
+  ```
+  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  ```
+  install suggested Plugins
+  ![Screenshot (752)](https://github.com/user-attachments/assets/340af1d4-ed0a-4a9e-99e4-6dd63ace2ba2)
+  ![Screenshot (753)](https://github.com/user-attachments/assets/de02a60e-4a9f-4e59-83cb-287372a73e85)
+
 ---
 
 ### **6. (Optional) Configure Jenkins**
@@ -198,4 +200,7 @@ sudo systemctl status jenkins
 
 ### **7. Test Jenkins**
 - Create a sample job to verify that Jenkins is working properly.
+
+![Screenshot (754)](https://github.com/user-attachments/assets/bb0a697e-0073-43fa-8ab4-57d7e5ae30f3)
+![Screenshot (755)](https://github.com/user-attachments/assets/3cf53f11-5bea-49f6-a69d-694fcb56c844)
 
