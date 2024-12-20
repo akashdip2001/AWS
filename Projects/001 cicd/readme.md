@@ -10,7 +10,7 @@
 
 # ========================= Process
 
-# 1. Create EC2 instance (ap-south-1 : Mumbai)
+# ✈️ 1. Create EC2 instance (ap-south-1 : Mumbai)
   <details aline="center">
        
   ![Screenshot (722)](https://github.com/user-attachments/assets/5da24da5-a6ec-4c30-a180-3aeadf1af7be)  
@@ -21,7 +21,7 @@
   ![Screenshot (727)](https://github.com/user-attachments/assets/e8f5efc5-e2ac-4474-9d0d-ecac4d4fcbc6)
   </details>
   
-# 2. Copy the `.pem` from Windows-11 to Linux/Docoments
+# ✈️ 2. Copy the `.pem` from Windows-11 to Linux/Docoments
 
   <details aline="center">
     
@@ -29,7 +29,7 @@
   ![Screenshot (729)](https://github.com/user-attachments/assets/e1b14964-a661-455a-bb68-da5c86078e15)
   </details>
   
-# 3. SSH connect
+# ✈️ 3. SSH connect
 
 ```
 ssh -i <name>.pem ubuntu@<ip>
@@ -40,7 +40,7 @@ ssh -i <name>.pem ubuntu@<ip>
 ![Screenshot (731)](https://github.com/user-attachments/assets/c5ccdd58-78ed-408f-94ac-991caad0720a)
 </details>
 
-# 4. install Jenkins
+# ✈️ 4. install Jenkins
 
 Installing Jenkins on an AWS EC2 instance :
 
@@ -207,3 +207,22 @@ sudo systemctl status jenkins
 ```
 http://65.2.63.129:8080/
 ```
+# ✈️ 5. Create a new Project in Jenkines
+
+![Screenshot (756)](https://github.com/user-attachments/assets/877ef0dc-ab17-435b-a4c3-731ada92a4a9)
+![Screenshot (757)](https://github.com/user-attachments/assets/686b5df9-a738-4445-930e-37c891229778)
+
+# ✈️ 6. Connect GitHub with AWS using SSH
+
+```
+ssh-keygen
+cd .ssh
+cat id_ed25519.pub
+```
+![Screenshot (758)](https://github.com/user-attachments/assets/bcadd3f3-3453-4574-9a62-f6bf65989d39)
+![Screenshot (761)](https://github.com/user-attachments/assets/85ed3549-d31c-4286-b4dc-fc8dfd1496c6)
+![Screenshot (762)](https://github.com/user-attachments/assets/4b5974cd-ea7f-4fa9-89b5-9d0d41350ea6)
+![Screenshot (763)](https://github.com/user-attachments/assets/c27379dd-198f-4d2a-b102-feb382c89f81)
+
+
+
