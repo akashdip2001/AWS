@@ -190,9 +190,6 @@ sudo systemctl status jenkins
   ![Screenshot (752)](https://github.com/user-attachments/assets/340af1d4-ed0a-4a9e-99e4-6dd63ace2ba2)
   ![Screenshot (753)](https://github.com/user-attachments/assets/de02a60e-4a9f-4e59-83cb-287372a73e85)
 
-```
-https://github.com/akashdip2001/node-todo-cicd
-```
 ---
 
 ### **6. (Optional) Configure Jenkins**
@@ -221,6 +218,10 @@ http://65.2.63.129:8080/
 
 ![Screenshot (756)](https://github.com/user-attachments/assets/877ef0dc-ab17-435b-a4c3-731ada92a4a9)
 ![Screenshot (757)](https://github.com/user-attachments/assets/686b5df9-a738-4445-930e-37c891229778)
+
+```
+https://github.com/akashdip2001/node-todo-cicd
+```
 
 </br>
 
