@@ -229,7 +229,7 @@ cat id_ed25519.pub
 ![Screenshot (764)](https://github.com/user-attachments/assets/0931c062-06cf-41a8-b0d8-afa8cb6ac7ba)
 ![Screenshot (765)](https://github.com/user-attachments/assets/fef652ed-175c-477a-b04d-29bcceecf58f)
 ![Screenshot (767)](https://github.com/user-attachments/assets/d5f57ba2-5748-47cc-9509-813bc1af09aa)
-![Screenshot (768)](https://github.com/user-attachments/assets/ee155f82-1ea1-403f-ac69-5441d97d6352)
-![Screenshot (769)](https://github.com/user-attachments/assets/31b87761-5767-4ae2-ab68-b8488545416a)
-
+![Screenshot (768)](https://github.com/user-attachments/assets/6fa7dfc2-9455-48e4-8cd1-45680e1c5c1d)
+![Screenshot (769)](https://github.com/user-attachments/assets/e946cb95-f374-403e-8323-decf18da6512)
+![Screenshot (771)](https://github.com/user-attachments/assets/acb91929-1953-42ee-9c7d-f933ca5fdfba)
 
