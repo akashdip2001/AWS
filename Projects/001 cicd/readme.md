@@ -68,7 +68,6 @@ Installing Jenkins on an AWS EC2 instance :
      ssh -i /path/to/key.pem ec2-user@<public-ip>
      ```
 </details>
----
 
 ### **2. Install Jenkins**
 #### **Step 1: Update the System**
@@ -98,25 +97,13 @@ Verify Java installation:
 java -version
 ```
 
-#### **Step 3: Add the Jenkins Repository**
-- **Ubuntu**:
-  ```bash
-  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
-  sudo apt-get update
-  ```
-
-- **Amazon Linux**:
-  ```bash
-  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-  ```
+#### **Step 3: [Add the Jenkins Repository](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu)**
 
 #### **Step 4: Install Jenkins**
 - Install Jenkins using the package manager:
   - **Ubuntu**:
     ```bash
-    sudo apt install -y jenkins
+    sudo apt-get install jenkins
     ```
   - **Amazon Linux**:
     ```bash
