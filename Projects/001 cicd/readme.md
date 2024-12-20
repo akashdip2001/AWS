@@ -238,3 +238,9 @@ cat id_ed25519.pub
 ![Screenshot (772)](https://github.com/user-attachments/assets/9aecfd8b-bdb1-491d-a701-01ef007a5e93)
 ![Screenshot (774)](https://github.com/user-attachments/assets/7e32d3a9-879e-438b-95f5-13593e58ad8f)
 ![Screenshot (776)](https://github.com/user-attachments/assets/3549908b-71a3-4616-98a2-1ce0f8555aad)
+
+```
+http://65.2.63.129:8000
+```
+![Screenshot (777)](https://github.com/user-attachments/assets/a444768b-c84c-4193-9a29-eba5fd739638)
+
