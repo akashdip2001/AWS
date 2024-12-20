@@ -801,3 +801,120 @@ Assignment
 => Deploy SpringBoot application in EC2 Linux VM and access that using browser in windows machine.
 
 @@ Reference video : https://www.youtube.com/watch?v=cRQPgbwOWq0
+
+=====================
+What is Web server ?
+======================
+
+=> Web Server is a software which is used to run web applications.
+
+=> Web applications are divided into 2 types 
+
+	1) static web application
+	
+	2) dynamic web application	
+
+=> The web app which is giving same response for every user is called as static web application.
+
+Note: To run static websites we can use "httpd" as a webserver.
+
+=> The web app which is giving response based on user is called as dynamic web application.		
+
+Note: To run dynamic website we can use "apache tomcat" as webserver.
+
+=============================================
+Hosting static website using amazon linux vm
+=============================================
+
+Step-1 : Create EC2 VM with amazon linux ami
+
+Step-2 : Connect with EC2 VM using SSH Client
+
+Step-3 : Install "HTTPD" webserver to run static websites
+
+Step-4 : Setup webpages (html files)
+
+Step-5 : Enable http protocol with 80 port number in SG inbound rules.
+
+Step-6 : Access website using EC2 VM public ip in our browser. 
+
+
+-------------------------------------
+sudo su
+yum install httpd -y
+service httpd start
+
+cd /var/www/html
+
+vi index.html
+-------------------------------------
+
+Website URl : http://public-ip/
+
+
+
+
+=====================
+What is user data ?
+=====================
+
+=> It is used to execute the script while launching EC2 VM.
+
+Note: User data will execute only once when the machine is started.
+
+#! /bin/bash
+
+sudo su
+yum install httpd -y
+cd /var/www/html
+echo "<html><h1>Welcome to AWS Cloud</h1></html>" > index.html
+service httpd start
+
+
+=============
+Assignment 
+=============
+
+=> Setup a static website using "nginx" web server using EC2 Linux VM.
+
+
+
+=======================
+What is Load Balancer
+=======================
+
+=> When we run our application in single server then we have to face below challenges
+
+	1) One server should handle all reqs
+	2) Burden will increase on server
+	3) Response will be delayed for clients
+	4) Server can crash
+	5) Single Point Of Failure
+	6) Business Loss
+
+=> To avoid above problems, we will run our application using Load Balancer.
+
+=> Load Balancer is used to distribute load to multiple servers in round robbin fashion.
+
+=> We have below advantages with Load Balancer
+
+	1) App will run in multiple severs
+
+	2) Load will be distributed
+
+	3) Burden will be reduces on servers
+
+	4) Fast Performance
+
+	5) High Availability
+
+
+=> We have 4 types of load balancers in aws
+
+	1) Application Load Balancer
+
+	2) Network Load balancer
+
+	3) Gateway Load Balancer
+
+	4) Classic Load balancer (previous generation)
