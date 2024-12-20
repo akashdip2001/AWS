@@ -156,6 +156,9 @@ sudo systemctl status jenkins
 ![Screenshot (744)](https://github.com/user-attachments/assets/ad3de3c6-6262-46aa-8539-e59e61916fe5)
 ![Screenshot (745)](https://github.com/user-attachments/assets/1ac484fd-a667-4d3f-b4a6-4ee5f6460553)
 
+🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+</details>
+
 ---
 
 ### **4. Open Firewall Ports**
