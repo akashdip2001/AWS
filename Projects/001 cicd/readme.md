@@ -224,6 +224,12 @@ cat id_ed25519.pub
 ![Screenshot (762)](https://github.com/user-attachments/assets/4b5974cd-ea7f-4fa9-89b5-9d0d41350ea6)
 ![Screenshot (763)](https://github.com/user-attachments/assets/57bd4c13-83b0-40c6-894c-525d0ad5ffd0)
 
+# ✈️ create PipeLine
 
+![Screenshot (764)](https://github.com/user-attachments/assets/0931c062-06cf-41a8-b0d8-afa8cb6ac7ba)
+![Screenshot (765)](https://github.com/user-attachments/assets/fef652ed-175c-477a-b04d-29bcceecf58f)
+![Screenshot (767)](https://github.com/user-attachments/assets/d5f57ba2-5748-47cc-9509-813bc1af09aa)
+![Screenshot (768)](https://github.com/user-attachments/assets/ee155f82-1ea1-403f-ac69-5441d97d6352)
+![Screenshot (769)](https://github.com/user-attachments/assets/31b87761-5767-4ae2-ab68-b8488545416a)
 
 
