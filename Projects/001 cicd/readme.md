@@ -207,10 +207,20 @@ sudo systemctl status jenkins
 ```
 http://65.2.63.129:8080/
 ```
+
+</br>
+
+
 # ✈️ 5. Create a new Project in Jenkines
+
+</br>
+
 
 ![Screenshot (756)](https://github.com/user-attachments/assets/877ef0dc-ab17-435b-a4c3-731ada92a4a9)
 ![Screenshot (757)](https://github.com/user-attachments/assets/686b5df9-a738-4445-930e-37c891229778)
+
+</br>
+
 
 # ✈️ 6. Connect GitHub with AWS using SSH
 
@@ -219,12 +229,22 @@ ssh-keygen
 cd .ssh
 cat id_ed25519.pub
 ```
+
+</br>
+
+
 ![Screenshot (758)](https://github.com/user-attachments/assets/bcadd3f3-3453-4574-9a62-f6bf65989d39)
 ![Screenshot (761)](https://github.com/user-attachments/assets/85ed3549-d31c-4286-b4dc-fc8dfd1496c6)
 ![Screenshot (762)](https://github.com/user-attachments/assets/4b5974cd-ea7f-4fa9-89b5-9d0d41350ea6)
 ![Screenshot (763)](https://github.com/user-attachments/assets/57bd4c13-83b0-40c6-894c-525d0ad5ffd0)
 
+</br>
+
+
 # ✈️ 7. create PipeLine --> CI
+
+</br>
+
 
 ![Screenshot (764)](https://github.com/user-attachments/assets/0931c062-06cf-41a8-b0d8-afa8cb6ac7ba)
 ![Screenshot (765)](https://github.com/user-attachments/assets/fef652ed-175c-477a-b04d-29bcceecf58f)
@@ -233,14 +253,37 @@ cat id_ed25519.pub
 ![Screenshot (769)](https://github.com/user-attachments/assets/e946cb95-f374-403e-8323-decf18da6512)
 ![Screenshot (771)](https://github.com/user-attachments/assets/acb91929-1953-42ee-9c7d-f933ca5fdfba)
 
+</br>
+
+
 # ✈️ 8. Run the app
+
+</br>
+
 
 ![Screenshot (772)](https://github.com/user-attachments/assets/9aecfd8b-bdb1-491d-a701-01ef007a5e93)
 ![Screenshot (774)](https://github.com/user-attachments/assets/7e32d3a9-879e-438b-95f5-13593e58ad8f)
 ![Screenshot (776)](https://github.com/user-attachments/assets/3549908b-71a3-4616-98a2-1ce0f8555aad)
 
+</br>
+
+
 ```
 http://65.2.63.129:8000
 ```
+
+</br>
+
+
 ![Screenshot (777)](https://github.com/user-attachments/assets/a444768b-c84c-4193-9a29-eba5fd739638)
 
+# ✈️ 9. CD
+
+</br>
+
+<p aline="center">
+  <img src="https://github.com/user-attachments/assets/0c4c13fa-ac64-4650-ad36-ac773a0a2e8e" width="45%">
+  <img src="https://github.com/user-attachments/assets/da6b9202-ff84-49fe-a1b5-1f8ba865637d" width="45%">
+</p>
+
+### for this we setup Docker
