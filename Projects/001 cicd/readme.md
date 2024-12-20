@@ -99,6 +99,8 @@ java -version
 
 #### **Step 3: [Add the Jenkins Repository](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu)**
 
+![Screenshot (740)](https://github.com/user-attachments/assets/ccf5a248-31d0-46e4-8419-7e2e5ee12f46)
+
 #### **Step 4: Install Jenkins**
 - Install Jenkins using the package manager:
   - **Ubuntu**:
@@ -126,6 +128,33 @@ java -version
    ```bash
    sudo systemctl status jenkins
    ```
+![Screenshot (741)](https://github.com/user-attachments/assets/8376c685-8542-4235-a22f-835165ac6855)
+
+#### SOLUTION ✅
+
+<details aline="center">
+  
+🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+```
+sudo journalctl -xeu jenkins.service
+```
+![Screenshot (742)](https://github.com/user-attachments/assets/7fd5c381-b569-4c56-a196-5956d0b80576)
+```
+sudo ls -l /var/log/jenkins
+sudo cat /var/log/jenkins/jenkins.log
+df -h
+JAVA_ARGS="-Djava.awt.headless=true"
+sudo systemctl restart jenkins
+systemctl daemon-reload
+```
+![Screenshot (743)](https://github.com/user-attachments/assets/15264f9a-33d7-4e4e-8641-56f922c98428)
+
+```
+sudo systemctl restart jenkins
+sudo systemctl status jenkins
+```
+![Screenshot (744)](https://github.com/user-attachments/assets/ad3de3c6-6262-46aa-8539-e59e61916fe5)
+![Screenshot (745)](https://github.com/user-attachments/assets/1ac484fd-a667-4d3f-b4a6-4ee5f6460553)
 
 ---
 
