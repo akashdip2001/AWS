@@ -204,3 +204,6 @@ sudo systemctl status jenkins
 ![Screenshot (754)](https://github.com/user-attachments/assets/bb0a697e-0073-43fa-8ab4-57d7e5ae30f3)
 ![Screenshot (755)](https://github.com/user-attachments/assets/3cf53f11-5bea-49f6-a69d-694fcb56c844)
 
+```
+http://65.2.63.129:8080/
+```
