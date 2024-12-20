@@ -42,32 +42,7 @@ ssh -i <name>.pem ubuntu@<ip>
 
 # 4. install Jenkins
 
-<details aline="center">
 Installing Jenkins on an AWS EC2 instance :
-
-### **1. Launch an AWS EC2 Instance**
-1. **Log in to AWS Management Console**:
-   - Navigate to the EC2 dashboard and click **Launch Instance**.
-2. **Choose an AMI**:
-   - Select an appropriate AMI, such as **Amazon Linux 2**, **Ubuntu 20.04/22.04**, or **CentOS**.
-3. **Select Instance Type**:
-   - Choose an instance type like `t2.micro` for testing or small-scale use (eligible for the free tier).
-4. **Configure Instance Details**:
-   - Ensure your instance is in a public subnet and has a public IP address.
-5. **Add Storage**:
-   - Use the default settings unless additional storage is needed.
-6. **Configure Security Groups**:
-   - Allow inbound traffic for:
-     - **SSH** (port `22`) for connecting to the instance.
-     - **HTTP** (port `80`) for accessing Jenkins on a web browser.
-     - **Custom TCP** (port `8080`) for Jenkins (optional, if required).
-7. **Launch and Connect**:
-   - Launch the instance with an existing key pair or create a new one.
-   - Connect to the instance using SSH:
-     ```bash
-     ssh -i /path/to/key.pem ec2-user@<public-ip>
-     ```
-</details>
 
 ### **2. Install Jenkins**
 #### **Step 1: Update the System**
@@ -162,12 +137,31 @@ sudo systemctl status jenkins
 ---
 
 ### **4. Open Firewall Ports**
-#### Update Security Group:
+#### ✅ Update Security Group:
 - Allow inbound traffic on port `8080` (for Jenkins).
 - Go to **EC2 > Security Groups > Edit Inbound Rules** and add:
   - Type: **Custom TCP Rule**
   - Port Range: **8080**
   - Source: **0.0.0.0/0** (or restrict to your IP for better security).
+
+    <details aline="center">
+     <summary><b> ✅ process in AWS</b></summary><br>
+      
+    ![Screenshot (747)](https://github.com/user-attachments/assets/2ff3f4a9-ea0c-4aae-b054-d3b5625024f7)
+    ![Screenshot (748)](https://github.com/user-attachments/assets/45f99861-0c9d-42f7-9a03-7b0f1b83ff47)
+    ![Screenshot (750)](https://github.com/user-attachments/assets/507f4d3b-1599-458d-8901-9aa11d92c7d5)
+
+    </details>
+    
+  ![Screenshot (751)](https://github.com/user-attachments/assets/ea1fda05-19f9-4295-8784-e021aca0a714)
+
+  ##### 🔑 passward: in this file
+  ```
+  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  ```
+  install suggested Plugins
+  ![Screenshot (752)](https://github.com/user-attachments/assets/340af1d4-ed0a-4a9e-99e4-6dd63ace2ba2)
+  ![Screenshot (753)](https://github.com/user-attachments/assets/de02a60e-4a9f-4e59-83cb-287372a73e85)
 
 #### Update Firewall (if needed):
 - On the instance, use:
