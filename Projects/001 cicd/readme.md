@@ -208,8 +208,10 @@ sudo systemctl status jenkins
 ### **7. Test Jenkins**
 - Create a sample job to verify that Jenkins is working properly.
 
-![Screenshot (754)](https://github.com/user-attachments/assets/bb0a697e-0073-43fa-8ab4-57d7e5ae30f3)
-![Screenshot (755)](https://github.com/user-attachments/assets/3cf53f11-5bea-49f6-a69d-694fcb56c844)
+<p>
+ <img width="40%" src="https://github.com/user-attachments/assets/bb0a697e-0073-43fa-8ab4-57d7e5ae30f3">
+ <img width="40%" src="https://github.com/user-attachments/assets/3cf53f11-5bea-49f6-a69d-694fcb56c844">
+</p>
 
 ```
 http://65.2.63.129:8080/
@@ -222,9 +224,10 @@ http://65.2.63.129:8080/
 
 </br>
 
-
-![Screenshot (756)](https://github.com/user-attachments/assets/877ef0dc-ab17-435b-a4c3-731ada92a4a9)
-![Screenshot (757)](https://github.com/user-attachments/assets/686b5df9-a738-4445-930e-37c891229778)
+<p>
+ <img width="40%" src="https://github.com/user-attachments/assets/877ef0dc-ab17-435b-a4c3-731ada92a4a9">
+ <img width="40%" src="https://github.com/user-attachments/assets/686b5df9-a738-4445-930e-37c891229778">
+</p>
 
 ```
 https://github.com/akashdip2001/node-todo-cicd
@@ -243,11 +246,14 @@ cat id_ed25519.pub
 
 </br>
 
-
-![Screenshot (758)](https://github.com/user-attachments/assets/bcadd3f3-3453-4574-9a62-f6bf65989d39)
-![Screenshot (761)](https://github.com/user-attachments/assets/85ed3549-d31c-4286-b4dc-fc8dfd1496c6)
-![Screenshot (762)](https://github.com/user-attachments/assets/4b5974cd-ea7f-4fa9-89b5-9d0d41350ea6)
-![Screenshot (763)](https://github.com/user-attachments/assets/57bd4c13-83b0-40c6-894c-525d0ad5ffd0)
+<p>
+ <img width="40%" src="https://github.com/user-attachments/assets/bcadd3f3-3453-4574-9a62-f6bf65989d39">
+ <img width="40%" src="https://github.com/user-attachments/assets/85ed3549-d31c-4286-b4dc-fc8dfd1496c6">
+</p>
+<p>
+ <img width="40%" src="https://github.com/user-attachments/assets/4b5974cd-ea7f-4fa9-89b5-9d0d41350ea6">
+ <img width="40%" src="https://github.com/user-attachments/assets/57bd4c13-83b0-40c6-894c-525d0ad5ffd0">
+</p>
 
 </br>
 
@@ -256,13 +262,18 @@ cat id_ed25519.pub
 
 </br>
 
-
+<p>
 ![Screenshot (764)](https://github.com/user-attachments/assets/0931c062-06cf-41a8-b0d8-afa8cb6ac7ba)
 ![Screenshot (765)](https://github.com/user-attachments/assets/fef652ed-175c-477a-b04d-29bcceecf58f)
+</p>
+<p>
 ![Screenshot (767)](https://github.com/user-attachments/assets/d5f57ba2-5748-47cc-9509-813bc1af09aa)
 ![Screenshot (768)](https://github.com/user-attachments/assets/6fa7dfc2-9455-48e4-8cd1-45680e1c5c1d)
+</p>
+<p>
 ![Screenshot (769)](https://github.com/user-attachments/assets/e946cb95-f374-403e-8323-decf18da6512)
 ![Screenshot (771)](https://github.com/user-attachments/assets/acb91929-1953-42ee-9c7d-f933ca5fdfba)
+</p>
 
 </br>
 
