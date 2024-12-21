@@ -11,22 +11,27 @@
 # ========================= Process
 
 # ✈️ 1. Create EC2 instance (ap-south-1 : Mumbai)
-  <details aline="center">
-       
-  ![Screenshot (722)](https://github.com/user-attachments/assets/5da24da5-a6ec-4c30-a180-3aeadf1af7be)  
-  ![Screenshot (723)](https://github.com/user-attachments/assets/eaae6b0b-ce20-4f92-82f2-6214df0ce16c)
-  ![Screenshot (724)](https://github.com/user-attachments/assets/1bc8dac4-49b1-43e9-843e-02ba657b28fa)
-  ![Screenshot (725)](https://github.com/user-attachments/assets/5d551320-3f19-42ef-8384-253cfb1d6c3b)
-  ![Screenshot (726)](https://github.com/user-attachments/assets/d67416f5-fb96-415b-8e8c-477b20325b2e)
-  ![Screenshot (727)](https://github.com/user-attachments/assets/e8f5efc5-e2ac-4474-9d0d-ecac4d4fcbc6)
-  </details>
+
+  <p>
+  <img width="40%" src="https://github.com/user-attachments/assets/5da24da5-a6ec-4c30-a180-3aeadf1af7be"> 
+  <img width="40%" src="https://github.com/user-attachments/assets/eaae6b0b-ce20-4f92-82f2-6214df0ce16c">
+  </p>
+  <p>
+  <img width="40%" src="https://github.com/user-attachments/assets/1bc8dac4-49b1-43e9-843e-02ba657b28fa">
+  <img width="40%" src="https://github.com/user-attachments/assets/5d551320-3f19-42ef-8384-253cfb1d6c3b">
+  </p>
+  <p>
+  <img width="40%" src="https://github.com/user-attachments/assets/d67416f5-fb96-415b-8e8c-477b20325b2e">
+  <img width="40%" src="https://github.com/user-attachments/assets/e8f5efc5-e2ac-4474-9d0d-ecac4d4fcbc6">
+  </p>
   
 # ✈️ 2. Copy the `.pem` from Windows-11 to Linux/Docoments
 
   <details aline="center">
-    
-  ![Screenshot (728)](https://github.com/user-attachments/assets/be707424-cd0f-4521-a1a4-76a349a6c93b)
-  ![Screenshot (729)](https://github.com/user-attachments/assets/e1b14964-a661-455a-bb68-da5c86078e15)
+  <p>
+   <img width="40%" src="https://github.com/user-attachments/assets/be707424-cd0f-4521-a1a4-76a349a6c93b">
+   <img width="40%" src="https://github.com/user-attachments/assets/e1b14964-a661-455a-bb68-da5c86078e15">
+  </p>
   </details>
   
 # ✈️ 3. SSH connect
@@ -35,9 +40,10 @@
 ssh -i <name>.pem ubuntu@<ip>
 ```
 <details aline="center">
-  
-![Screenshot (730)](https://github.com/user-attachments/assets/d2ef2a28-8e8b-4fd3-b793-54991fbaf7bd)
-![Screenshot (731)](https://github.com/user-attachments/assets/c5ccdd58-78ed-408f-94ac-991caad0720a)
+<p>  
+ <img width="40%" src="https://github.com/user-attachments/assets/d2ef2a28-8e8b-4fd3-b793-54991fbaf7bd">
+ <img width="40%" src="https://github.com/user-attachments/assets/c5ccdd58-78ed-408f-94ac-991caad0720a">
+</p>
 </details>
 
 # ✈️ 4. install Jenkins
@@ -187,9 +193,10 @@ sudo systemctl status jenkins
   sudo cat /var/lib/jenkins/secrets/initialAdminPassword
   ```
   install suggested Plugins
-  ![Screenshot (752)](https://github.com/user-attachments/assets/340af1d4-ed0a-4a9e-99e4-6dd63ace2ba2)
-  ![Screenshot (753)](https://github.com/user-attachments/assets/de02a60e-4a9f-4e59-83cb-287372a73e85)
-
+  <p aline="centre">
+   <img width="40%" src="https://github.com/user-attachments/assets/340af1d4-ed0a-4a9e-99e4-6dd63ace2ba2">
+   <img width="40%" src="https://github.com/user-attachments/assets/de02a60e-4a9f-4e59-83cb-287372a73e85">
+  </p>
 ---
 
 ### **6. (Optional) Configure Jenkins**
