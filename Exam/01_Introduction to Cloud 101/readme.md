@@ -1,5 +1,6 @@
 [<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-introduction-to-cloud-101.png">](https://www.credly.com/badges/998c7f5e-7081-4cd7-b8ee-153ece4d89f0) 
 
+# Practice Questions
 ## Foundational AWS concepts covered in "**Introduction to Cloud 101**." [videos](https://www.youtube.com/playlist?list=PL_RecMEcs_p_TuIPqY1zVYeGoL5RriWhk)
 
 1. **What is cloud computing?**  
@@ -49,7 +50,7 @@
 
 ---
 
-### sources:
+### support links:
 
  * https://www.sidmartinbio.org/what-are-the-5-steps-in-forming-a-cloud/
  * https://github.com/jasonkwm/aws-cloud-practitioner
