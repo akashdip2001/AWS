@@ -8,6 +8,8 @@
 <a href="https://www.credly.com/badges/6ea09b08-c1f7-4035-ae3b-bf921004d224/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-security.png" width="150px" height="150px" /></a>
 </div>
 
+[<img align="right" alt="GitHub Foundations exam logo" width="250" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-actions.png">](https://www.linkedin.com/posts/akashdip2001_macbook-desktop-github-activity-7286721666125119488-G-B4) 
+
 </br>
 </br>
 
