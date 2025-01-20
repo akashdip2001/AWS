@@ -6,6 +6,7 @@
 <a href="https://www.credly.com/badges/998c7f5e-7081-4cd7-b8ee-153ece4d89f0/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-introduction-to-cloud-101.png" width="150px" height="150px" /></a>
 <a href="https://www.credly.com/badges/02600532-734a-44c4-954a-bc03105fa653/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-storage.png" width="150px" height="150px" /></a>
 <a href="https://www.credly.com/badges/6ea09b08-c1f7-4035-ae3b-bf921004d224/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-security.png" width="150px" height="150px" /></a>
+<a href="https://www.salesforce.com/trailblazer/akashdipmahapatra"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/SF-Certified_AI-Associate_High-Res.png" width="150px" height="150px" />
 </div>
 
 [<img align="right" alt="GitHub Foundations exam logo" width="250" src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-actions.png">](https://www.linkedin.com/posts/akashdip2001_macbook-desktop-github-activity-7286721666125119488-G-B4) 
