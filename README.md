@@ -931,3 +931,29 @@ What is Load Balancer
 	3) Gateway Load Balancer
 
 	4) Classic Load balancer (previous generation)
+
+
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+# AWS Foundational Voucher Skill Builder Course Requirements
+
+![skillbuilder](https://github.com/user-attachments/assets/060004d6-9f3f-49aa-a194-ae503ebcd0a2)
+
+In order to receive the discounted AWS Foundational Certification exam voucher reward, you must take an AWS Skill Builder Exam Prep course and complete an AWS Skill Builder Official Practice Question Set with a passing score of 70% or higher for the certification you are seeking. Please note that the courses must be completed under the AWS Skill Builder account that has the same email as your AWS Educate account.
+
+Qualifying AWS Skill Builder Exam Prep courses are:
+1) [AWS Cloud Practitioner Essentials](https://explore.skillbuilder.aws/learn/course/134/AWS%2520Cloud%2520Practitioner%2520Essentials)
+2) [Exam Prep Standard Course: AWS Certified AI Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19554/exam-prep-standard-course-aws-certified-ai-practitioner-aif-c01)
+
+
+Qualifying AWS Skill Builder Official Practice Question Sets are:
+1) [Exam Prep Official Practice Question Set: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english)
+2) [Exam Prep Official Practice Question Set: AWS Certified AI Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19790/exam-prep-official-practice-question-set-aws-certified-ai-practitioner-aif-c01-english)
+
+
+You can find these courses directly by following these steps:
+1. Go to AWS [Skill Builder](https://explore.skillbuilder.aws/learn)
+2. Use the following search filters: - Languages: English - Domain: Cloud Essentials or AI Practitioner - Course Level: Fundamental (Fundamental includes Foundational and Associate exams, Intermediate includes Professional, and Advanced includes Specialty) - Training Category: Exam Preparation (for practice test), Digital Course (for the Essentials course)
+3. Choose the course. As a reminder please make sure your Skill Builder email matches the email associated with your ETC/Educate account.
+
