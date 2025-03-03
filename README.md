@@ -12,7 +12,7 @@
 
 <div style='display:flex; align-items:center; gap: 30px;' align='center'>
 <a href="https://www.linkedin.com/posts/akashdip2001_macbook-desktop-github-activity-7286721666125119488-G-B4"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-actions.png" width="180px" height="180px"/></a>
-<a href="https://www.credly.com/badges/b6fecf8a-dc7b-47f5-8275-0df8d829aeed/public_url"><img src="https://github.com/user-attachments/assets/83d9db6e-b5e8-4b19-9878-b32559d86aca" width="180px" height="180px" />
+<a href="https://www.credly.com/badges/b6fecf8a-dc7b-47f5-8275-0df8d829aeed/public_url"><img src="https://github.com/user-attachments/assets/83d9db6e-b5e8-4b19-9878-b32559d86aca" width="180px" height="180px"/></a>
 <a href="https://www.salesforce.com/trailblazer/akashdipmahapatra"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/SF-Certified_AI-Associate_High-Res.png" width="150px" height="150px"/></a>
 </div>
 </br>
