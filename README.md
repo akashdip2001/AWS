@@ -958,6 +958,10 @@ You can find these courses directly by following these steps:
 2. Use the following search filters: - Languages: English - Domain: Cloud Essentials or AI Practitioner - Course Level: Fundamental (Fundamental includes Foundational and Associate exams, Intermediate includes Professional, and Advanced includes Specialty) - Training Category: Exam Preparation (for practice test), Digital Course (for the Essentials course)
 3. Choose the course. As a reminder please make sure your Skill Builder email matches the email associated with your ETC/Educate account.
 
+---
+
+[![Screenshot (460)](https://github.com/user-attachments/assets/00d522eb-c264-47da-a939-1999dc31ef76)](https://explore.skillbuilder.aws/learn/courses/11458/aws-cloud-quest-cloud-practitioner)
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 # AWS Associate Voucher Skill Builder Course Requirements
