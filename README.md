@@ -943,13 +943,13 @@ What is Load Balancer
 
 In order to receive the discounted AWS Foundational Certification exam voucher reward, you must take an AWS Skill Builder Exam Prep course and complete an AWS Skill Builder Official Practice Question Set with a passing score of 70% or higher for the certification you are seeking. Please note that the courses must be completed under the AWS Skill Builder account that has the same email as your AWS Educate account.
 
-Qualifying AWS Skill Builder Exam Prep courses are:
+Qualifying AWS Skill Builder Exam Prep courses are: [click](https://explore.skillbuilder.aws/learn/courses/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english)
 1) [AWS Cloud Practitioner Essentials](https://explore.skillbuilder.aws/learn/course/134/AWS%2520Cloud%2520Practitioner%2520Essentials)
 2) [Exam Prep Standard Course: AWS Certified AI Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19554/exam-prep-standard-course-aws-certified-ai-practitioner-aif-c01)
 
 
 Qualifying AWS Skill Builder Official Practice Question Sets are:
-1) [Exam Prep Official Practice Question Set: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english) [click](https://explore.skillbuilder.aws/learn/courses/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english) & [course](https://explore.skillbuilder.aws/learn/courses/16434/retiring-exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english)
+1) [Exam Prep Official Practice Question Set: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english) & [course](https://explore.skillbuilder.aws/learn/courses/16434/retiring-exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english)
 2) [Exam Prep Official Practice Question Set: AWS Certified AI Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19790/exam-prep-official-practice-question-set-aws-certified-ai-practitioner-aif-c01-english)
 
 
