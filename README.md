@@ -949,7 +949,7 @@ Qualifying AWS Skill Builder Exam Prep courses are: [click](https://explore.skil
 
 
 Qualifying AWS Skill Builder Official Practice Question Sets are:
-1) [Exam Prep Official Practice Question Set: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english) & [course](https://explore.skillbuilder.aws/learn/courses/16434/retiring-exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english)
+1) [Exam Prep Official Practice Question Set: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english) 
 2) [Exam Prep Official Practice Question Set: AWS Certified AI Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19790/exam-prep-official-practice-question-set-aws-certified-ai-practitioner-aif-c01-english)
 
 
@@ -960,7 +960,7 @@ You can find these courses directly by following these steps:
 
 ---
 
-![Screenshot (466)](https://github.com/user-attachments/assets/5beabdaf-fb3d-4296-9128-8e03e2a0f236)
+[![Screenshot (466)](https://github.com/user-attachments/assets/5beabdaf-fb3d-4296-9128-8e03e2a0f236)](https://explore.skillbuilder.aws/learn/courses/16434/retiring-exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english)
 [![Screenshot (460)](https://github.com/user-attachments/assets/00d522eb-c264-47da-a939-1999dc31ef76)](https://explore.skillbuilder.aws/learn/courses/11458/aws-cloud-quest-cloud-practitioner)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
