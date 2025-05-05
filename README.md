@@ -949,14 +949,14 @@ Qualifying AWS Skill Builder Exam Prep courses are:
 
 
 Qualifying AWS Skill Builder Official Practice Question Sets are:
-1) [Exam Prep Official Practice Question Set: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english)
+1) [Exam Prep Official Practice Question Set: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english) [click](https://explore.skillbuilder.aws/learn/courses/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english) & [course](https://explore.skillbuilder.aws/learn/courses/16434/retiring-exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english)
 2) [Exam Prep Official Practice Question Set: AWS Certified AI Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19790/exam-prep-official-practice-question-set-aws-certified-ai-practitioner-aif-c01-english)
 
 
 You can find these courses directly by following these steps:
 1. Go to AWS [Skill Builder](https://explore.skillbuilder.aws/learn)
 2. Use the following search filters: - Languages: English - Domain: Cloud Essentials or AI Practitioner - Course Level: Fundamental (Fundamental includes Foundational and Associate exams, Intermediate includes Professional, and Advanced includes Specialty) - Training Category: Exam Preparation (for practice test), Digital Course (for the Essentials course)
-3. Choose the [course](https://explore.skillbuilder.aws/learn/courses/16434/retiring-exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english). As a reminder please make sure your Skill Builder email matches the email associated with your ETC/Educate account.
+3. Choose the course. As a reminder please make sure your Skill Builder email matches the email associated with your ETC/Educate account.
 
 ---
 
