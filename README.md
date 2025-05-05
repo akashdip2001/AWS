@@ -960,6 +960,7 @@ You can find these courses directly by following these steps:
 
 ---
 
+![Screenshot (466)](https://github.com/user-attachments/assets/5beabdaf-fb3d-4296-9128-8e03e2a0f236)
 [![Screenshot (460)](https://github.com/user-attachments/assets/00d522eb-c264-47da-a939-1999dc31ef76)](https://explore.skillbuilder.aws/learn/courses/11458/aws-cloud-quest-cloud-practitioner)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
