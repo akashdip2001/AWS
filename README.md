@@ -13,6 +13,7 @@
 <div style='display:flex; align-items:center; gap: 30px;' align='center'>
 <a href="https://www.linkedin.com/posts/akashdip2001_macbook-desktop-github-activity-7286721666125119488-G-B4"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-actions.png" width="180px" height="180px"/></a>
 <a href="https://www.credly.com/badges/b6fecf8a-dc7b-47f5-8275-0df8d829aeed/public_url"><img src="https://github.com/user-attachments/assets/83d9db6e-b5e8-4b19-9878-b32559d86aca" width="180px" height="180px"/></a>
+<a href="https://www.credly.com/badges/9e0d21a7-ee7a-4588-8e57-94bfa8185d8e/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/GitHub%20Administration.png" width="187px" height="187px" /></a>
 <a href="https://www.salesforce.com/trailblazer/akashdipmahapatra"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/SF-Certified_AI-Associate_High-Res.png" width="150px" height="150px"/></a>
 </div>
 </br>
@@ -962,6 +963,9 @@ You can find these courses directly by following these steps:
 
 [![Screenshot (466)](https://github.com/user-attachments/assets/5beabdaf-fb3d-4296-9128-8e03e2a0f236)](https://explore.skillbuilder.aws/learn/courses/16434/retiring-exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english)
 [![Screenshot (460)](https://github.com/user-attachments/assets/00d522eb-c264-47da-a939-1999dc31ef76)](https://explore.skillbuilder.aws/learn/courses/11458/aws-cloud-quest-cloud-practitioner)
+
+| [How to complete ?](https://youtu.be/rCN4sfwMKWg) |
+| --- |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
