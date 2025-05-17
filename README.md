@@ -942,6 +942,8 @@ What is Load Balancer
 
 ![skillbuilder](https://github.com/user-attachments/assets/060004d6-9f3f-49aa-a194-ae503ebcd0a2)
 
+[<img align="right" alt="GitHub Foundations exam logo" width="300" src="https://github.com/akashdip2001/AWS/blob/main/Exam/Rewards/ETC%20Member%20Digital%20Badge/AWSEBadge.png?raw=true">](https://github.com/akashdip2001/AWS) 
+
 In order to receive the discounted AWS Foundational Certification exam voucher reward, you must take an AWS Skill Builder Exam Prep course and complete an AWS Skill Builder Official Practice Question Set with a passing score of 70% or higher for the certification you are seeking. Please note that the courses must be completed under the AWS Skill Builder account that has the same email as your AWS Educate account.
 
 Qualifying AWS Skill Builder Exam Prep courses are: [click](https://explore.skillbuilder.aws/learn/courses/14050/exam-prep-official-question-set-aws-certified-cloud-practitioner-clf-c02-english)
