@@ -7,7 +7,6 @@
 <a href="https://www.credly.com/badges/998c7f5e-7081-4cd7-b8ee-153ece4d89f0/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-cloud-quest-cloud-practitioner.png" width="150px" height="150px" /></a>
 <a href="https://www.linkedin.com/posts/akashdip2001_postman-api-certification-activity-7264947968200368128-MHWG"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/Postman%20White%20badge.png" width="150px" height="150px" /></a>
 <a href="https://www.credly.com/badges/998c7f5e-7081-4cd7-b8ee-153ece4d89f0/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-introduction-to-cloud-101.png" width="150px" height="150px" /></a>
-<a href="https://www.credly.com/badges/02600532-734a-44c4-954a-bc03105fa653/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-storage.png" width="150px" height="150px" /></a>
 <a href="https://www.credly.com/badges/6ea09b08-c1f7-4035-ae3b-bf921004d224/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-educate-getting-started-with-security.png" width="150px" height="150px" /></a>
 </div>
 
@@ -16,7 +15,7 @@
 <a href="https://www.linkedin.com/posts/akashdip2001_macbook-desktop-github-activity-7286721666125119488-G-B4"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/github-actions.png" width="180px" height="180px"/></a>
 <a href="https://www.credly.com/badges/b6fecf8a-dc7b-47f5-8275-0df8d829aeed/public_url"><img src="https://github.com/user-attachments/assets/83d9db6e-b5e8-4b19-9878-b32559d86aca" width="180px" height="180px"/></a>
 <a href="https://www.credly.com/badges/9e0d21a7-ee7a-4588-8e57-94bfa8185d8e/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/GitHub%20Administration.png" width="187px" height="187px" /></a>
-<a href="https://www.salesforce.com/trailblazer/akashdipmahapatra"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/SF-Certified_AI-Associate_High-Res.png" width="150px" height="150px"/></a>
+</a>
 </div>
 </br>
 </br>
