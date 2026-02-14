@@ -1,4 +1,8 @@
 ![Pattern_Social_16x9](https://github.com/user-attachments/assets/74dc65b6-5208-47aa-a502-524a9d123e9f)
+<img width="1364" height="629" alt="aws-ba-2026-02-14" src="https://github.com/user-attachments/assets/97ba7490-f862-4649-8e04-3c59a5906dc1" />
+
+> **aws services** i use in [@britishairways](https://github.com/BritishAirways-Ent) `everyday` 2025-2026
+
 </br>
   </br>
    [Verify all Badges : ](https://www.credly.com/users/akashdip2001)
