@@ -4,8 +4,10 @@
 > **aws services** i use in [@britishairways](https://github.com/BritishAirways-Ent) `everyday` 2025-2026
 
 </br>
-  </br>
-   [Verify all Badges : ](https://www.credly.com/users/akashdip2001)
+</br>
+
+[Verify all Badges : ](https://www.credly.com/users/akashdip2001)
+   
 <div style='display:flex; align-items:center; gap: 30px;' align='center'>
 <a href="https://www.linkedin.com/posts/akashdip2001_aws-devsecops-cloudpractitioner-activity-7342667659299233792-cnbE"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/AWS Certified Cloud Practitioner.png" width="150px" height="150px" /></a>
 <a href="https://www.credly.com/badges/998c7f5e-7081-4cd7-b8ee-153ece4d89f0/public_url"><img src="https://github.com/akashdip2001/akashdip2001/raw/main/img/Badge/aws-cloud-quest-cloud-practitioner.png" width="150px" height="150px" /></a>
