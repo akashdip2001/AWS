@@ -1,5 +1,7 @@
 Here are the top 5 "Super-Node" questions from beginner to super-advanced. Mastering these 5 scenarios covers about 50 standard interview questions.
 
+---
+
 ### Level 1: The Core Systems Foundation (Linux & Networking)
 
 This tests your fundamental understanding of how traffic actually reaches a server, expanding on your Apple infrastructure training.
@@ -8,6 +10,8 @@ This tests your fundamental understanding of how traffic actually reaches a serv
 
 * **Domain Coverage:** DNS, OSI Layer 3/4 (TCP/IP), Layer 7 (HTTP), Linux processes.
 * **The 'Smart' Connection:** You must explain the DNS lookup (A-records), the TCP 3-way handshake (`SYN`, `SYN-ACK`, `ACK`), how the Linux kernel accepts the connection on Port 443, and how the Nginx master process hands the connection to a worker process.
+
+---
 
 ### Level 2: The Coding OA (Applied Python & DSA)
 
@@ -18,6 +22,8 @@ This is exactly what you will face in the pre-interview Hackerrank round.
 * **Domain Coverage:** Python scripting, File I/O, Time/Space Complexity, Hash Maps (Dictionaries).
 * **The 'Smart' Connection:** This proves you understand DSA without doing LeetCode. You must read the file line-by-line (to keep space complexity at ) and use a Python dictionary to count occurrences (keeping time complexity at ). You then sort the dictionary keys by value.
 
+---
+
 ### Level 3: DevOps & CI/CD Automation
 
 This targets the Alexa Connections role requirements and your daily work.
@@ -27,6 +33,8 @@ This targets the Alexa Connections role requirements and your daily work.
 * **Domain Coverage:** CI/CD pipelines, Docker, AWS IAM, OIDC (OpenID Connect).
 * **The 'Smart' Connection:** You must connect pipeline automation to cloud security. You would check if the IAM Role trust policy used by GitHub Actions was modified, check if the temporary STS (Security Token Service) token expired, and verify the IAM policy attached to the role actually has `ecr:GetAuthorizationToken` and `ecr:BatchCheckLayerAvailability` permissions.
 
+---
+
 ### Level 4: Enterprise Cloud Architecture
 
 This is tailored to your ODIE data pipeline experience and the ICON SysDE role.
@@ -35,6 +43,8 @@ This is tailored to your ODIE data pipeline experience and the ICON SysDE role.
 
 * **Domain Coverage:** AWS Serverless, Distributed Systems, Event-Driven Architecture, Observability.
 * **The 'Smart' Connection:** This tests your ability to scale. You would first check CloudWatch metrics for Lambda concurrency limits and DynamoDB Write Capacity Units (WCU) throttling. To fix it, you would discuss batching the Kafka records, increasing the Lambda memory (which proportionally increases CPU), or implementing a Dead Letter Queue (DLQ) in EventBridge so failed messages aren't lost forever.
+
+---
 
 ### Level 5: Super Advanced System Design (The Bar Raiser)
 
